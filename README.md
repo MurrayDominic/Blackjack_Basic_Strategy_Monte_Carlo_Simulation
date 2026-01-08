@@ -5,9 +5,13 @@
 ## Features  
   Supports configurable rules:
     - Number of decks
+    
     - Dealer hits or stands on soft 17 
+    
     - Double down allowed
+    
     - Blackjack payout
+    
     - Deck penetration
 
 ## Requirements
