@@ -4,28 +4,31 @@
 
 ## Features  
   Supports configurable rules:
+  
     - Number of decks
-    
-    - Dealer hits or stands on soft 17 
-    
-    - Double down allowed
-    
+    - Number of simulations
+    - Deck penetration 
+    - Dealer hitting on soft 17
+    - Doubling down allowed
     - Blackjack payout
-    
-    - Deck penetration
 
 ## Requirements
-  Python 3.6+
-  pandas
-  numpy
-  collections
-  random
+
+  - Python 3.6+
+  - random
+  - pandas
+  - collections
 
 ## How It Works:
+
   Simulates thousands of full shoes
+  
   For each dealt hand (non-blackjack), independently evaluates hit, stand, and double by continuing from the same deck state
+  
   Records profit/stake for each action
+  
   Aggregates results into EV = total winnings / total stake
+  
   Handles card depletion within shoes
 
 ## Note
