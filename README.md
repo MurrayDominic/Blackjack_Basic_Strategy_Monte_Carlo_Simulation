@@ -32,5 +32,5 @@
   Handles card depletion within shoes
 
 ## Note
-This is not the most efficient way to compute an exact basic strategy chart — a deterministic combinatorial model (or billion-hand simulation with optimal play) would be far more precise and faster.
+This is not the most efficient way to compute an exact basic strategy chart — a deterministic combinatorial model would be far more precise and faster.
 This project was created as a learning exercise to practice Monte Carlo simulation techniques.
